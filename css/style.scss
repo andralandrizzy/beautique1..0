@@ -1,0 +1,48 @@
+
+*,*::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    letter-spacing: 1px;
+    background-color: #f8f8f8;
+}
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    max-width: 1420px;
+    margin: 0 auto;
+}
+
+.inner-container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+img{
+    display: block;
+    width: 100%;
+    object-position: top/center;
+    object-fit: cover;
+}
+
+@import "partials/utilities";
+@import "partials/navbar";
+@import "partials/showcase";
+@import "partials/news";
+@import "partials/services";
+@import "partials/works";
+@import "partials/about";
+@import "partials/footer";

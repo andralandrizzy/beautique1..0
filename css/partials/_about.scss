@@ -1,0 +1,40 @@
+#about{
+    margin-bottom: 2rem;
+    .about{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4rem;
+        .about-info{
+            margin-right: 3rem;
+            h1{
+                font-family: $ff-paris;
+                font-size: 3.5rem;
+                font-weight: 500;
+                margin-bottom: 2.5rem;
+                span{
+                    border-bottom: solid 1px $grey;
+                }
+            }
+            p{
+                font-size: 1.5rem;
+                width: 50ch;
+                line-height: 1.7;
+                margin-bottom: 1.8rem;
+            }
+            .about-btn{
+                color: $pink;
+                font-size: 1.7rem;
+                font-weight: 600;
+            }
+        }
+        .about-img{
+            margin-left: 4rem;
+            width: 100%;
+            img{
+                transform: scale(0.8);
+            }
+        }
+    }
+}

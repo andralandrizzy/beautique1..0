@@ -1,0 +1,30 @@
+$salmon: #FFDCF5;
+$pink: #FF00B8;
+$grey: #494949e7;
+$rice: #ffffff;
+$ff-wash: 'Oleo Script Swash Caps', cursive;
+$ff-paris: 'Parisienne', cursive;
+$ff-pat : 'Pattaya', sans-serif;
+$ff-pop: 'Poppins', sans-serif;
+
+
+.header{
+    text-align: center;
+    margin: 5rem auto;
+    width: 115ch;
+    h1{
+        font-size: 3.5rem;
+        font-weight: 200;
+        font-family: $ff-paris;
+    }
+    p{
+        font-size: 1.5rem;
+        font-family: $ff-pop;
+        margin-top: 1rem;
+    }
+    .line{
+        width: 40rem;
+        margin: 3rem auto;
+        opacity: 0.5;
+    }
+}

@@ -1,23 +1,22 @@
-footer{
-    height: 30vh;
-    border: solid red 1px;
-    display: flex;
-    background-color: rgba(255, 0, 183, 0.575);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    .logo{
-        color: $rice;
-        font-size: 3.5rem;
-        .logo-outline{
-            -webkit-text-stroke: 1px $rice;
-        }
-    }
-    .copy{
-        margin-top: 0.8rem;
-        font-size: 1rem;
-        color: $rice;
-        font-size: 1.6rem;
-        font-family: $ff-pat;
-    }
+footer {
+	height: 30vh;
+	display: flex;
+	background-color: rgba(255, 0, 183, 0.575);
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	.logo {
+		color: $rice;
+		font-size: 3.5rem;
+		.logo-outline {
+			-webkit-text-stroke: 1px $rice;
+		}
+	}
+	.copy {
+		margin-top: 0.8rem;
+		font-size: 1rem;
+		color: $rice;
+		font-size: 1.6rem;
+		font-family: $ff-pat;
+	}
 }
